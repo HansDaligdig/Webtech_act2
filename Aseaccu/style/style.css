@@ -95,7 +95,65 @@ body{
   transition: color 0.3s ease-in-out;
 } */
 
-#hero {
+.slide-show-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* CSS Styles in common for all slides */
+.wrapper-one,
+.wrapper-two,
+.wrapper-three {
+  background-color: #eee;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+}
+
+/* CSS Styles for each slide */
+/* Just add the image as background attribute and add some animation */
+
+.wrapper-one {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.788),
+    rgba(0, 0, 0, 0.788)
+  ),
+  url(../assets/church.jpg);
+}
+
+.wrapper-two {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.788),
+    rgba(0, 0, 0, 0.788)
+  ),
+  url(../assets/church2.jpg);
+  animation: slideTwoAnim 20s infinite;
+}
+
+.wrapper-three {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.788),
+    rgba(0, 0, 0, 0.788)
+  ),
+  url(../assets/church3.jpg);
+  animation: slideThreeAnim 20s infinite;
+}
+
+/* #hero {
   height: 100vh;
   background-image: linear-gradient(
       to top,
@@ -112,8 +170,8 @@ body{
   text-align: center;
   color: #fff;
   padding: 20px;
-}
-
+} */
+/* 
 .wrapper {
     position: absolute;
     height: 100%;
@@ -126,7 +184,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
+  } */
   
   .wrapper h1 {
     font-size: 100px;
@@ -151,6 +209,7 @@ body{
 
 .hero-title{
   font-size: 100px;
+  display: inline-block;
 }
 
 .about-wrapper img{
@@ -199,10 +258,34 @@ body{
 }
 
 .school h1{
+  display: block;
+  border-bottom: #f9dd94;
   padding-top: 100px;
   text-align: center;
-  border-bottom: 3px solid #f9dd94;
 }
+
+.hero-content h2{
+  font-style: italic;
+}
+
+/* Animations */
+@keyframes slideTwoAnim {
+  0%{opacity:0;}
+  17%{opacity:0;}
+  33%{opacity:1;}
+  50%{opacity:1;}
+  67%{opacity:0;}
+  100%{opacity:0;}
+}
+
+@keyframes slideThreeAnim {
+  0%{opacity:0;}
+  50%{opacity:0;}
+  67%{opacity:1;}
+  83%{opacity:1;}
+  100%{opacity:0;}
+}
+
 
   /* Media Query */
   @media screen and (max-width: 600px) {
