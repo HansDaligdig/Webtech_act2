@@ -168,6 +168,10 @@ padding: 20px; */
   animation: slideThreeAnim 20s infinite;
 }
 
+#hero h2{
+  font-style: italic;
+}
+
 
 /* 
 .wrapper {
@@ -246,6 +250,7 @@ padding: 20px; */
   padding: 16px;
   text-align: center;
   background-color: #FAFAFA;
+  width: 98%;
 }
 
 .card2 {
