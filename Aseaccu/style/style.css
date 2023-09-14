@@ -1,4 +1,9 @@
 @font-face {
+  font-family: Montserrat;
+  src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
   font-family: Playfair;
   src: url(../assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
@@ -12,11 +17,14 @@ h4 {
   text-align: left;
 }
 
-p,
-h1,
-h4 {
+h1{
   font-family: Playfair;
 }
+
+/* p,
+h4 {
+  font-family: Playfair;
+} */
 
 nav a {
   text-decoration: none;
@@ -86,41 +94,11 @@ body {
   margin-right: 20px;
 }
 
-/* .nav-links a {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease-in-out;
-}
-
-.nav-links a:hover {
-  text-decoration: none;
-  color: grey;
-  transition: color 0.3s ease-in-out;
-} */
-
 .slide-show-container {
   height: 100vh;
   width: 100%;
   position: relative;
 }
-
-/* height: 100vh;
-background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.788),
-    rgba(0, 0, 0, 0.788)
-  ),
-  url(../assets/church.jpg);
-background-size: cover;
-background-position: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-color: #fff;
-padding: 20px; */
-
 
 /* CSS Styles in common for all slides */
 .wrapper-one,
@@ -169,6 +147,7 @@ padding: 20px; */
 }
 
 #hero h2{
+  font-family: Playfair;
   font-style: italic;
 }
 
@@ -206,7 +185,23 @@ padding: 20px; */
 
 .about-wrapper {
   padding-top: 100px;
-  padding-bottom: 500px;
+  padding-bottom: 300px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.about h1, h4, p{
+  font-family: Montserrat;
+}
+
+.row h3{
+  font-family: Playfair;
+  text-align: center;
+}
+
+.row p{
+  font-family: Montserrat;
+  text-align: center;
 }
 
 .hero-title {
@@ -219,7 +214,7 @@ padding: 20px; */
 }
 
 .button {
-  font-family: Playfair;
+  font-family: Montserrat;
 }
 
 .column {
@@ -251,6 +246,7 @@ padding: 20px; */
   text-align: center;
   background-color: #FAFAFA;
   width: 98%;
+  height: 435px;
 }
 
 .card2 {
@@ -348,12 +344,13 @@ padding: 20px; */
     height: 350px;
     display: block;
     float: none;
+    margin: 0 auto;
   }
 
   p,
   h1,
   h4 {
-    font-family: Playfair;
+    font-family: Montserrat;
     text-align: center;
   }
 
@@ -374,11 +371,12 @@ padding: 20px; */
     position: absolute;
 }
 
-  .about-wrapper {
-    padding-top: 100px;
-    margin-left: 120px;
-    padding-bottom: 100px;
-  }
+.about-wrapper {
+  margin-right: -95px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 50px;
+}
 
   .column {
     width: 100%;
@@ -446,7 +444,7 @@ padding: 20px; */
 p,
   h1,
   h4 {
-    font-family: Playfair;
+    font-family: Montserrat;
     text-align: center;
   }
   
@@ -542,7 +540,7 @@ p,
   p,
   h1,
   h4 {
-    font-family: Playfair;
+    font-family: Montserrat;
     text-align: center;
   }
   
