@@ -21,6 +21,10 @@ h1{
   font-family: Playfair;
 }
 
+h1 {display:table;}
+h1.text-center { margin:0 auto;}
+h1.text-right {margin-left:auto; text-align:right;}
+
 /* p,
 h4 {
   font-family: Playfair;
@@ -82,8 +86,6 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
 .nav-links {
   list-style: none;
@@ -190,6 +192,17 @@ body {
   margin-right: 150px;
 }
 
+.about-wrapper h1::after{
+  content: '';
+  display: block;
+  width: 235px;
+  height: 4px;
+  background: #ff5e5e;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
 .about h1, h4, p{
   font-family: Montserrat;
 }
@@ -222,6 +235,14 @@ body {
   width: 25%;
   padding: 20px 77px;
 }
+
+
+.news-column {
+  float: left;
+  width: 17%;
+  padding: 20px 70px;
+}
+
 
 .column2 {
   float: left;
@@ -267,6 +288,36 @@ body {
 .hero-content h2 {
   font-style: italic;
 }
+
+.news-container{
+  padding-top: 100px;
+}
+
+.news-container h1, h4{
+  margin-left: 100px;
+}
+
+h1:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ff5e5e;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
+/* .news-container h1:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ff5e5e;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 3px;
+} */
 
 /* Animations */
 @keyframes slideTwoAnim {
