@@ -157,11 +157,11 @@ video {
 
 .container1 h1, p{
   font-family: Bebas;
-  font-size: 25px;
+  font-size: 80px;
 }
 
 .container1 p{
-  padding-bottom: 300px;
+  font-size: 30px;
 }
 
 .container1 img {
@@ -177,23 +177,24 @@ video {
   padding-bottom: 100px;
 }
 
-.container2 img{
+.container2 img {
   float: right;
-  width: 600px;
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 700px;
+  margin-top: 72px;
+  margin-right: 75px;
   border-radius: 25px;
 }
 
 .container2 h1, p{
   font-family: Bebas;
-  font-size: 25px;
+  font-size: 80px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 .container2 p{
-  padding-bottom: 200px;
+  font-size: 30px;
+  width: 50vw;
 }
 
 .container3 img{
@@ -206,18 +207,16 @@ video {
 
 .container3 h1, p{
   font-family: Bebas;
-  font-size: 20px;
+  font-size: 75px;
 }
 
 .container3 p{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  font-size: 30px;
 }
 
 .history{
   padding-top: 50px;
 }
-
 
 .section-header {
   text-align: center;
@@ -254,23 +253,27 @@ video {
 .steps .content1 p {
   color: #081104;
   font-size: 16px;
+  font-family: Bebas;
 }
 
 .steps .content1 h2 {
   font-weight: 600;
   font-size: 16px;
   color: #081104;
+  font-family: Bebas;
 }
 
 .steps .content2 p {
   color: #081104;
   font-size: 16px;
+  font-family: Bebas;
 }
 
 .steps .content2 h2 {
   font-weight: 600;
   font-size: 16px;
   color: #081104;
+  font-family: Bebas;
 }
 
 .steps-container {
@@ -307,6 +310,7 @@ video {
 }
 
 .steps .steps-container .date {
+  font-family: Bebas;
   font-weight: 900;
   font-size: 16px;
   color: #ffffff;
