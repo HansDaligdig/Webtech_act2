@@ -8,6 +8,10 @@
   src: url(../assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -17,13 +21,22 @@ h4 {
   text-align: left;
 }
 
-h1{
+h1 {
   font-family: Playfair;
 }
 
-h1 {display:table;}
-h1.text-center { margin:0 auto;}
-h1.text-right {margin-left:auto; text-align:right;}
+h1 {
+  display: table;
+}
+
+h1.text-center {
+  margin: 0 auto;
+}
+
+h1.text-right {
+  margin-left: auto;
+  text-align: right;
+}
 
 /* p,
 h4 {
@@ -148,26 +161,10 @@ body {
   animation: slideThreeAnim 20s infinite;
 }
 
-#hero h2{
+#hero h2 {
   font-family: Playfair;
   font-style: italic;
 }
-
-
-/* 
-.wrapper {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.65);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  } */
 
 .wrapper h1 {
   font-size: 100px;
@@ -192,10 +189,10 @@ body {
   margin-right: 150px;
 }
 
-.about-wrapper h1::after{
+.about-wrapper h1::after {
   content: '';
   display: block;
-  width: 235px;
+  width: 54px;
   height: 4px;
   background: #ff5e5e;
   margin: 0 auto;
@@ -203,16 +200,18 @@ body {
   border-radius: 3px;
 }
 
-.about h1, h4, p{
+.about h1,
+h4,
+p {
   font-family: Montserrat;
 }
 
-.row h3{
+.row h3 {
   font-family: Playfair;
   text-align: center;
 }
 
-.row p{
+.row p {
   font-family: Montserrat;
   text-align: center;
 }
@@ -236,11 +235,54 @@ body {
   padding: 20px 77px;
 }
 
-
 .news-column {
   float: left;
   width: 17%;
   padding: 20px 70px;
+}
+
+.about-us-div{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.about-us-div h1{
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+.about-us-div li{
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.about-us-div p{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.about-us-div h3{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.news1{
+  padding-top: 150px;
+  text-align: center;
+}
+
+.news1 h4{
+  margin-left: 0px;
+}
+
+.news1 img{
+  float: right;
 }
 
 
@@ -289,11 +331,12 @@ body {
   font-style: italic;
 }
 
-.news-container{
+.news-container {
   padding-top: 100px;
 }
 
-.news-container h1, h4{
+.news-container h1,
+h4 {
   margin-left: 100px;
 }
 
@@ -308,16 +351,67 @@ h1:after {
   border-radius: 3px;
 }
 
-/* .news-container h1:after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: #ff5e5e;
-  margin: 0 auto;
-  margin-top: 15px;
-  border-radius: 3px;
-} */
+.button {
+  --primary-color: #735f47;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: inline-flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-family: Montserrat;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.button .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.button:hover {
+  background-color: var(--hover-color);
+}
+
+.button:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.button:hover .arrow:before {
+  right: 0;
+}
 
 /* Animations */
 @keyframes slideTwoAnim {
@@ -405,7 +499,9 @@ h1:after {
     text-align: center;
   }
 
-  .wrapper-one, .wrapper-two, .wrapper-three {
+  .wrapper-one,
+  .wrapper-two,
+  .wrapper-three {
     background-color: #eee;
     background-size: cover;
     background-repeat: no-repeat;
@@ -420,14 +516,14 @@ h1:after {
     padding: 20px;
     width: 125%;
     position: absolute;
-}
+  }
 
-.about-wrapper {
-  margin-right: -95px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-left: 50px;
-}
+  .about-wrapper {
+    margin-right: -95px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+  }
 
   .column {
     width: 100%;
@@ -446,6 +542,7 @@ h1:after {
     font-size: 20px;
     text-align: justify;
   }
+
   .school h1 {
     margin-left: 155px;
   }
@@ -461,44 +558,47 @@ h1:after {
     position: fixed;
     width: 100%;
     z-index: 990;
-}
-.wrapper-one, .wrapper-two, .wrapper-three {
-  background-color: #eee;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-  width: 120%;
-  position: absolute;
-}
+  }
 
-.about-wrapper {
-  margin-left: 160px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+  .wrapper-one,
+  .wrapper-two,
+  .wrapper-three {
+    background-color: #eee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    width: 120%;
+    position: absolute;
+  }
 
-.about img {
-  width: 480px;
-  height: 480px;
-  display: block;
-  float: none;
-}
+  .about-wrapper {
+    margin-left: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-p,
+  .about img {
+    width: 480px;
+    height: 480px;
+    display: block;
+    float: none;
+  }
+
+  p,
   h1,
   h4 {
     font-family: Montserrat;
     text-align: center;
   }
-  
+
   p {
     font-size: 20px;
     text-align: justify;
@@ -575,6 +675,7 @@ p,
     margin: 0 auto;
     float: none;
   }
+
   .about img {
     width: 620px;
     height: 660px;
@@ -594,7 +695,7 @@ p,
     font-family: Montserrat;
     text-align: center;
   }
-  
+
   p {
     font-size: 20px;
     text-align: justify;
