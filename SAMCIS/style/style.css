@@ -1,0 +1,153 @@
+@font-face {
+  font-family: Inter;
+  src: url(../assets/Font/Inter-Regular.ttf);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Inter;
+  background: #136ad2;
+  background: #fff;
+}
+
+.toggle-bars {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+.toggle-bars .bar {
+  width: 35px;
+  background-color: #fff;
+  margin: 7px 0;
+  height: 2px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 23px;
+  position: fixed;
+  width: 97%;
+  z-index: 1000;
+  background-color: #070707;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#toggle {
+  display: none;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  color: #267dff;
+  transition: color 0.3s ease-in-out;
+}
+
+#hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../assets/Hero.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.hero-title {
+  font-size: 50px;
+  font-family: Inter;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+  font-family: Inter;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #267dff;
+  transition: color 0.3s ease-in-out;
+}
+
+.samcis {
+  color: #eab600;
+}
+
+.nav-logo {
+  color: #eab600;
+  font-size: 24px;
+}
+
+.hero-button {
+  margin-top: 20px;
+  background-color: #eab600;
+  color: #070707;
+  border: none;
+  width: 181px;
+  padding: 22px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 35px;
+  border-radius: 40px;
+}
+
+.hero-button:hover {
+  color: white;
+}
