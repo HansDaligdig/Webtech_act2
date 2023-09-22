@@ -181,13 +181,65 @@ a:hover {
   font-size: 25px;
   color: white;
 }
-
 img {
-  max-width: 90%;
-  max-height: 90%;
-  float: left;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
   border-bottom-left-radius: 23px;
   border-bottom-right-radius: 23px;
 }
+.about-image {
+  max-width: 90%;
+  max-height: 90%;
+  float: left;
+}
+.univ-container {
+  margin: 20px;
+  background-color: white;
+}
+.odd, .even {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.even {
+  background-color: #070707;
+}
+.samcis-org-odd, .samcis-org-even, .image-div-odd, .image-div-even {
+  margin: 20px;
+}
+
+.samcis-title-odd, .samcis-title-even {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.samcis-title-even {
+  text-align: right;
+  color: white;
+}
+.samcis-org-even {
+  order: 1;
+}
+.image-div-even {
+  order: 2;
+}
+.odd-image, .even-image {
+  max-width: 300px;
+  max-height: 300px;
+}
+.odd-text, .even-text {
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 10px;
+}
+.even-text {
+  text-align: right;
+  color: white;
+}
+.samcis-sec {
+  background-color: #eab600;
+}
+
