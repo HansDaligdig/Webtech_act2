@@ -193,15 +193,17 @@ img {
   float: left;
 }
 .univ-container {
-  margin: 20px;
   background-color: white;
+}
+.samcis-container {
+  background-color: #eab600;
 }
 .odd, .even {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 30px;
 }
 .even {
   background-color: #070707;
@@ -210,14 +212,20 @@ img {
   margin: 20px;
 }
 
-.samcis-title-odd, .samcis-title-even {
-  font-size: 30px;
+.univ-title-odd, .univ-title-even, .samcis-title-odd, .samcis-title-even {
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 0;
+  margin-top: 0;
 }
-.samcis-title-even {
+.univ-title-even, .samcis-title-even {
   text-align: right;
-  color: white;
+}
+.univ-title-even {
+  color:#4682B4;
+}
+.samcis-title-odd {
+  color: black;
 }
 .samcis-org-even {
   order: 1;
@@ -231,15 +239,12 @@ img {
 }
 .odd-text, .even-text {
   color: black;
-  font-size: 18px;
+  font-size: 19px;
   margin: 0;
   margin-top: 10px;
 }
 .even-text {
   text-align: right;
   color: white;
-}
-.samcis-sec {
-  background-color: #eab600;
 }
 
