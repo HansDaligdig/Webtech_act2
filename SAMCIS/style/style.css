@@ -211,7 +211,6 @@ img {
 .samcis-org-odd, .samcis-org-even, .image-div-odd, .image-div-even {
   margin: 20px;
 }
-
 .univ-title-odd, .univ-title-even, .samcis-title-odd, .samcis-title-even {
   font-size: 40px;
   font-weight: bold;
@@ -248,3 +247,32 @@ img {
   color: white;
 }
 
+/* 2xl */
+@media (max-width: 1536px) {
+
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+
+}
+
+/* md */
+@media (max-width: 768px) {
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+
+}
+
+/* xs */
+@media (max-width: 475px) {
+  
+}
