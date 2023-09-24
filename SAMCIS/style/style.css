@@ -198,7 +198,8 @@ img {
 .samcis-container {
   background-color: #eab600;
 }
-.odd, .even {
+.odd,
+.even {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,14 +209,16 @@ img {
 .even {
   background-color: #070707;
 }
-.univ-header, .samcis-header {
+.univ-header,
+.samcis-header {
   padding: 20px;
-  background-color: #4682B4;
+  background-color: #4682b4;
 }
 .samcis-header {
   background-color: #232023;
 }
-.univ-title, .samcis-title {
+.univ-title,
+.samcis-title {
   margin: 0;
   align-self: center;
   font-size: 40px;
@@ -226,20 +229,27 @@ img {
 .samcis-title {
   color: #eab600;
 }
-.samcis-org-odd, .samcis-org-even, .image-div-odd, .image-div-even {
+.samcis-org-odd,
+.samcis-org-even,
+.image-div-odd,
+.image-div-even {
   margin: 20px;
 }
-.univ-title-odd, .title-even, .samcis-title-odd, .samcis-title-even {
+.univ-title-odd,
+.title-even,
+.samcis-title-odd,
+.samcis-title-even {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 0;
 }
-.univ-title-even, .samcis-title-even {
+.univ-title-even,
+.samcis-title-even {
   text-align: right;
 }
 .univ-title-even {
-  color:#4682B4;
+  color: #4682b4;
   font-size: 40px;
 }
 .samcis-title-odd {
@@ -251,11 +261,13 @@ img {
 .image-div-even {
   order: 2;
 }
-.odd-image, .even-image {
+.odd-image,
+.even-image {
   max-width: 300px;
   max-height: 300px;
 }
-.odd-text, .even-text {
+.odd-text,
+.even-text {
   color: black;
   font-size: 19px;
   margin: 0;
@@ -266,16 +278,26 @@ img {
   color: white;
 }
 
-/* 2xl */
-@media (max-width: 1536px) {
+.hamburger {
+  position: absolute;
+  top: 5em;
+  right: 5%;
+  margin-left: -2em;
+  margin-top: -45px;
+  width: 2em;
+  height: 45px;
+  z-index: 5;
+}
 
+/* 2xl */
+@media screen and (min-width: 1280px) and (max-width: 1536px) {
 }
 
 /* xl */
-@media (max-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .hero-title {
     font-size: 55px;
-    }
+  }
   .hero-button {
     padding: 17px;
   }
@@ -296,30 +318,37 @@ img {
     margin: 0;
     font-size: 40px;
   }
-  .univ-title, .samcis-title {
+  .univ-title,
+  .samcis-title {
     font-size: 40px;
   }
-  .univ-title-odd, .univ-title-even, .samcis-title-even, .samcis-title-odd {
+  .univ-title-odd,
+  .univ-title-even,
+  .samcis-title-even,
+  .samcis-title-odd {
     font-size: 40px;
     margin: 0;
   }
-  .odd-text, .even-text {
+  .odd-text,
+  .even-text {
     font-size: 23px;
   }
-  .univ-org-even, .univ-org-odd {
+  .univ-org-even,
+  .univ-org-odd {
     padding: 20px;
   }
-  .image-div-even, .image-div-odd {
+  .image-div-even,
+  .image-div-odd {
     padding: 0;
     margin: 20px;
   }
 }
 
 /* lg */
-@media (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero-title {
     font-size: 45px;
-    }
+  }
   .hero-button {
     padding: 12px;
   }
@@ -339,36 +368,45 @@ img {
     margin: 0;
     font-size: 35px;
   }
-  .univ-title, .samcis-title {
+  .univ-title,
+  .samcis-title {
     font-size: 35px;
   }
-  .odd, .even {
+  .odd,
+  .even {
     padding: 25px;
   }
-  .odd-image, .even-image{
+  .odd-image,
+  .even-image {
     max-width: 275px;
-    max-height: 275px;;
+    max-height: 275px;
   }
-  .univ-title-odd, .univ-title-even, .samcis-title-even, .samcis-title-odd {
+  .univ-title-odd,
+  .univ-title-even,
+  .samcis-title-even,
+  .samcis-title-odd {
     font-size: 35px;
     margin: 0;
   }
-  .odd-text, .even-text {
+  .odd-text,
+  .even-text {
     font-size: 18px;
   }
-  .univ-org-even, .univ-org-odd {
+  .univ-org-even,
+  .univ-org-odd {
     padding: 10px;
   }
-  .image-div-even, .image-div-odd {
+  .image-div-even,
+  .image-div-odd {
     padding: 0;
     margin: 20px;
   }
 }
 
 /* md */
-@media (max-width: 768px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
   .hero-title {
-  font-size: 40px;
+    font-size: 40px;
   }
   .hero-button {
     padding: 12px;
@@ -389,38 +427,388 @@ img {
     margin: 0;
     font-size: 30px;
   }
-  .univ-title, .samcis-title {
+  .univ-title,
+  .samcis-title {
     font-size: 30px;
   }
-  .odd, .even {
+  .odd,
+  .even {
     padding: 20px;
   }
-  .odd-image, .even-image{
+  .odd-image,
+  .even-image {
     max-width: 250px;
-    max-height: 250px;;
+    max-height: 250px;
   }
-  .univ-title-odd, .univ-title-even, .samcis-title-even, .samcis-title-odd {
+  .univ-title-odd,
+  .univ-title-even,
+  .samcis-title-even,
+  .samcis-title-odd {
     font-size: 30px;
     margin: 0;
   }
-  .odd-text, .even-text {
+  .odd-text,
+  .even-text {
     font-size: 15px;
   }
-  .univ-org-even, .univ-org-odd {
+  .univ-org-even,
+  .univ-org-odd {
     padding: 10px;
   }
-  .image-div-even, .image-div-odd {
+  .image-div-even,
+  .image-div-odd {
     padding: 0;
     margin: 20px;
   }
 }
 
 /* sm */
-@media (max-width: 640px) {
+@media screen and (min-width: 475px) and (max-width: 640px) {
+  .hero-logo {
+    margin-left: 30px;
+  }
+  .hero-title {
+    font-size: 30px;
+    position: relative;
+    padding-left: 30px;
+  }
+  .hero-button {
+    padding: 8px;
+  }
+  .about-text {
+    padding-right: 20px;
+  }
+  .aboutp-text {
+    font-size: 10px;
+    margin-top: 50ex;
+    width: 50ex;
+    margin-right: 40%;
+    text-align: initial;
+  }
+  .about-container {
+    padding-bottom: 5%;
+  }
+  .image {
+    margin: 0;
+  }
+  .about-image {
+    display: block;
+    max-width: 150%;
+    max-height: 150%;
+    margin-bottom: 120px;
+    margin-left: 75px;
+  }
 
+  h2 {
+    display: inline;
+  }
+
+  p {
+    display: flex;
+  }
+
+  img {
+    display: inline;
+  }
+  .about-title {
+    margin: 0;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    top: 40ex;
+    text-align: center;
+  }
+  .univ-title,
+  .samcis-title {
+    font-size: 30px;
+  }
+  .odd,
+  .even {
+    padding: 20px;
+  }
+  .odd-image,
+  .even-image {
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .univ-title-odd,
+  .univ-title-even,
+  .samcis-title-even,
+  .samcis-title-odd {
+    font-size: 30px;
+    margin: 0;
+  }
+  .odd-text,
+  .even-text {
+    font-size: 15px;
+  }
+  .univ-org-even,
+  .univ-org-odd {
+    padding: 10px;
+  }
+  .image-div-even,
+  .image-div-odd {
+    padding: 0;
+    margin: 20px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    transition: 0.4s;
+  }
+
+  .bar1 {
+    top: 10px;
+  }
+  .bar2 {
+    top: 20px;
+  }
+  .bar3 {
+    top: 30px;
+  }
+
+  .hamburger {
+    margin-right: 2em;
+    margin-top: -63px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+  }
+
+  .hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .nav-links {
+    text-align: left;
+  }
+
+  .nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Poppins";
+    display: block;
+    transition: color 0.2s ease-in-out;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+  }
+
+  .nav-links a:hover {
+    color: black;
+    font-weight: bolder;
+  }
+
+  #toggle:checked + .hamburger .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    margin-top: 0px;
+  }
+
+  #toggle:checked + .hamburger .bar2 {
+    opacity: 0;
+  }
+
+  #toggle:checked + .hamburger .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    margin-top: -4px;
+  }
+
+  #toggle:checked + .hamburger + .nav-links {
+    top: 0;
+    transform: scale(1);
+  }
 }
 
 /* xs */
-@media (max-width: 475px) {
-  
+@media screen and (max-width: 475px) {
+  .hero-logo {
+    margin-left: 30px;
+  }
+  .hero-title {
+    font-size: 30px;
+  }
+  .hero-button {
+    padding: 8px;
+  }
+  .about-text {
+    padding-right: 20px;
+  }
+  .aboutp-text {
+    font-size: 15px;
+  }
+  .about-container {
+    padding-bottom: 5%;
+  }
+  .image {
+    margin: 0;
+  }
+  .about-title {
+    margin: 0;
+    font-size: 30px;
+  }
+  .univ-title,
+  .samcis-title {
+    font-size: 30px;
+  }
+  .odd,
+  .even {
+    padding: 20px;
+  }
+  .odd-image,
+  .even-image {
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .univ-title-odd,
+  .univ-title-even,
+  .samcis-title-even,
+  .samcis-title-odd {
+    font-size: 30px;
+    margin: 0;
+  }
+  .odd-text,
+  .even-text {
+    font-size: 15px;
+  }
+  .univ-org-even,
+  .univ-org-odd {
+    padding: 10px;
+  }
+  .image-div-even,
+  .image-div-odd {
+    padding: 0;
+    margin: 20px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    transition: 0.4s;
+  }
+
+  .bar1 {
+    top: 10px;
+  }
+  .bar2 {
+    top: 20px;
+  }
+  .bar3 {
+    top: 30px;
+  }
+
+  .hamburger {
+    margin-right: 2em;
+    margin-top: -63px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+  }
+
+  .hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .nav-links {
+    text-align: left;
+  }
+
+  .nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Poppins";
+    display: block;
+    transition: color 0.2s ease-in-out;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+  }
+
+  .nav-links a:hover {
+    color: white;
+  }
+
+  #toggle:checked + .hamburger .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    margin-top: 0px;
+  }
+
+  #toggle:checked + .hamburger .bar2 {
+    opacity: 0;
+  }
+
+  #toggle:checked + .hamburger .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    margin-top: -4px;
+  }
+
+  #toggle:checked + .hamburger + .nav-links {
+    top: 0;
+    transform: scale(1);
+  }
 }
