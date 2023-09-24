@@ -24,11 +24,6 @@ h4 {
 h1 {
   font-family: Playfair;
 }
-
-h1 {
-  display: table;
-}
-
 h1.text-center {
   margin: 0 auto;
 }
@@ -38,10 +33,10 @@ h1.text-right {
   text-align: right;
 }
 
-/* p,
+p,
 h4 {
   font-family: Playfair;
-} */
+}
 
 nav a {
   text-decoration: none;
@@ -249,8 +244,6 @@ p {
   border-radius: 10px;
 }
 
-
-
 .about-us-div{
   margin-left: 300px;
   margin-right: 300px;
@@ -360,7 +353,12 @@ h1:after {
   margin-top: 15px;
   border-radius: 3px;
 }
-
+.about-aseaccu, .about-title {
+  text-align: center;
+  margin: 0;
+  align-self: center;
+  font-weight: bold;
+}
 .button {
   --primary-color: #735f47;
   --secondary-color: #fff;
