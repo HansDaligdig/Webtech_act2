@@ -4,12 +4,12 @@
 }
 
 @font-face{
-    font-family: Bebas;
-    src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
+  font-family: Bebas;
+  src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
 p{
-    font-family: Bebas;
+  font-family: Bebas;
 }
 
 html{
@@ -18,8 +18,8 @@ html{
 }
 
 body{
-    margin: 0;
-    overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 nav a{
@@ -142,8 +142,8 @@ video {
 }
 
 .logo{
-    font-size: 35px;
-}  
+  font-size: 35px;
+}
 
 .about{
   padding-top: 100px;
@@ -351,7 +351,7 @@ video {
     width: 100%;
     justify-content: center;
     align-items: center;
-}
+  }
 
   #menu-toggle ~ .menu li {
     height: 0;
@@ -360,7 +360,7 @@ video {
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-    
+
   #menu-toggle:checked ~ .menu li {
     border: 1px solid #333;
     height: 2.5em;
@@ -381,25 +381,25 @@ video {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
-    
+
   section{
     height:700px;
   }
 }
 
 @media (max-width: 767px) {
-    .steps::after {
-      left: 32px;
-    }
-    .steps-container {
-      left: 0;
-      flex-direction: row-reverse;
-      width: auto;
-      margin-bottom: 16px;
-    }
-    .steps .steps-container:nth-child(even) {
-      left: 0;
-    }
+  .steps::after {
+    left: 32px;
+  }
+  .steps-container {
+    left: 0;
+    flex-direction: row-reverse;
+    width: auto;
+    margin-bottom: 16px;
+  }
+  .steps .steps-container:nth-child(even) {
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -584,6 +584,265 @@ video {
     box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
     padding-right: 0px;
     margin-right: 45px;
+  }
+
+  .steps .steps-container .date {
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 62px;
+    height: 62px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 777;
+    margin-left: 34px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and  (max-width: 1023px) {
+  section{
+    width: 769px;
+    height:100%;
+  }
+
+  .container1 img {
+    float: left;
+    width: 550px;
+    height: 374px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .container1 h1, p{
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .container1 p {
+    font-family: Bebas;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-right: 100px;
+    margin-top: 0px;
+  }
+
+  .container2 h1, p {
+    font-family: Bebas;
+    font-size: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .container2 p {
+    margin-top: 0px;
+    font-size: 30px;
+    width: 90vw;
+  }
+
+  .container2 img {
+    float: right;
+    width: 621px;
+    margin-top: 0px;
+    margin-right: 75px;
+    border-radius: 25px;
+  }
+
+  .container3 img {
+    float: left;
+    width: 600px;
+    margin-left: 75px;
+    margin-right: 50px;
+    border-radius: 25px;
+    margin-top: 0px;
+  }
+
+  .container3 p {
+    font-size: 30px;
+  }
+
+  .container3 h1, p{
+    margin-right: 100px;
+    margin-bottom: 5px;
+    font-family: Bebas;
+    font-size: 75px;
+    margin-left: 78px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+
+  .steps::after {
+    left: 32px;
+  }
+  .steps-container {
+    left: 0;
+    flex-direction: row-reverse;
+    width: auto;
+    margin-bottom: 16px;
+    margin-left: -33px;
+  }
+  .steps .steps-container:nth-child(even) {
+    left: 0;
+  }
+
+  .steps-container .content1 {
+    margin-left: -1px;
+    padding: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 0px 0px 80px 0px;
+    box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+    padding-right: 0px;
+    margin-right: 45px;
+  }
+
+  .steps .steps-container .date {
+    font-family: Bebas;
+    font-weight: 900;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 62px;
+    height: 62px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 777;
+    margin-left: 34px;
+  }
+
+}
+@media screen and (min-width: 1280px) and  (max-width: 1535px) {
+  section{
+    width: 1536px;
+    height:100%;
+  }
+
+  .container1 img {
+    float: left;
+    width: 550px;
+    height: 374px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .container1 h1, p{
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .container1 p {
+    font-family: Bebas;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-right: 100px;
+    margin-top: 0px;
+  }
+
+  .container2 {
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+
+  .container2 h1, p {
+    font-family: Bebas;
+    font-size: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .container2 p {
+    margin-top: 0px;
+    font-size: 30px;
+    width: 55vw;
+  }
+
+  .container2 img {
+    float: right;
+    width: 621px;
+    margin-top: 0px;
+    margin-right: 75px;
+    border-radius: 25px;
+    height: 400px;
+  }
+
+  .container3 img {
+    float: left;
+    width: 600px;
+    margin-left: 75px;
+    margin-right: 50px;
+    border-radius: 25px;
+    margin-top: 0px;
+    height: 550px;
+  }
+
+  .container3 p {
+    font-size: 30px;
+  }
+
+  .container3 h1, p{
+    margin-right: 100px;
+    margin-bottom: 5px;
+    font-family: Bebas;
+    font-size: 75px;
+    margin-left: 78px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+
+  .steps::after {
+    left: 32px;
+  }
+
+  .steps {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 200px;
+  }
+  .steps-container {
+    left: 0;
+    flex-direction: row-reverse;
+    width: auto;
+    margin-bottom: 16px;
+    margin-left: -33px;
+  }
+  .steps .steps-container:nth-child(even) {
+    left: 0;
+  }
+
+  .steps-container .content1 {
+    margin-left: -1px;
+    padding: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 0px 0px 80px 0px;
+    box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+    padding-right: 0px;
+    margin-right: 200px;
+  }
+
+  .steps-container .content2 {
+    margin-right: 300px;
+    padding: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 0px 0px 80px 0px;
+    box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
   }
 
   .steps .steps-container .date {
