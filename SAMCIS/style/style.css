@@ -208,10 +208,28 @@ img {
 .even {
   background-color: #070707;
 }
+.univ-header, .samcis-header {
+  padding: 20px;
+  background-color: #4682B4;
+}
+.samcis-header {
+  background-color: #232023;
+}
+.univ-title, .samcis-title {
+  margin: 0;
+  align-self: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.samcis-title {
+  color: #eab600;
+}
 .samcis-org-odd, .samcis-org-even, .image-div-odd, .image-div-even {
   margin: 20px;
 }
-.univ-title-odd, .univ-title-even, .samcis-title-odd, .samcis-title-even {
+.univ-title-odd, .title-even, .samcis-title-odd, .samcis-title-even {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 0;
@@ -222,6 +240,7 @@ img {
 }
 .univ-title-even {
   color:#4682B4;
+  font-size: 40px;
 }
 .samcis-title-odd {
   color: black;
@@ -254,17 +273,146 @@ img {
 
 /* xl */
 @media (max-width: 1280px) {
-
+  .hero-title {
+    font-size: 55px;
+    }
+  .hero-button {
+    padding: 17px;
+  }
+  .about-text {
+    padding-right: 25px;
+  }
+  .aboutp-text {
+    font-size: 23px;
+  }
+  .about-container {
+    padding-bottom: 5%;
+    padding-right: 15px;
+  }
+  .image {
+    margin: 0;
+  }
+  .about-title {
+    margin: 0;
+    font-size: 40px;
+  }
+  .univ-title, .samcis-title {
+    font-size: 40px;
+  }
+  .univ-title-odd, .univ-title-even, .samcis-title-even, .samcis-title-odd {
+    font-size: 40px;
+    margin: 0;
+  }
+  .odd-text, .even-text {
+    font-size: 23px;
+  }
+  .univ-org-even, .univ-org-odd {
+    padding: 20px;
+  }
+  .image-div-even, .image-div-odd {
+    padding: 0;
+    margin: 20px;
+  }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-
+  .hero-title {
+    font-size: 45px;
+    }
+  .hero-button {
+    padding: 12px;
+  }
+  .about-text {
+    padding-right: 25px;
+  }
+  .aboutp-text {
+    font-size: 20px;
+  }
+  .about-container {
+    padding-bottom: 5%;
+  }
+  .image {
+    margin: 0;
+  }
+  .about-title {
+    margin: 0;
+    font-size: 35px;
+  }
+  .univ-title, .samcis-title {
+    font-size: 35px;
+  }
+  .odd, .even {
+    padding: 25px;
+  }
+  .odd-image, .even-image{
+    max-width: 275px;
+    max-height: 275px;;
+  }
+  .univ-title-odd, .univ-title-even, .samcis-title-even, .samcis-title-odd {
+    font-size: 35px;
+    margin: 0;
+  }
+  .odd-text, .even-text {
+    font-size: 18px;
+  }
+  .univ-org-even, .univ-org-odd {
+    padding: 10px;
+  }
+  .image-div-even, .image-div-odd {
+    padding: 0;
+    margin: 20px;
+  }
 }
 
 /* md */
 @media (max-width: 768px) {
-
+  .hero-title {
+  font-size: 40px;
+  }
+  .hero-button {
+    padding: 12px;
+  }
+  .about-text {
+    padding-right: 20px;
+  }
+  .aboutp-text {
+    font-size: 15px;
+  }
+  .about-container {
+    padding-bottom: 5%;
+  }
+  .image {
+    margin: 0;
+  }
+  .about-title {
+    margin: 0;
+    font-size: 30px;
+  }
+  .univ-title, .samcis-title {
+    font-size: 30px;
+  }
+  .odd, .even {
+    padding: 20px;
+  }
+  .odd-image, .even-image{
+    max-width: 250px;
+    max-height: 250px;;
+  }
+  .univ-title-odd, .univ-title-even, .samcis-title-even, .samcis-title-odd {
+    font-size: 30px;
+    margin: 0;
+  }
+  .odd-text, .even-text {
+    font-size: 15px;
+  }
+  .univ-org-even, .univ-org-odd {
+    padding: 10px;
+  }
+  .image-div-even, .image-div-odd {
+    padding: 0;
+    margin: 20px;
+  }
 }
 
 /* sm */
