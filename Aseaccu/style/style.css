@@ -134,24 +134,30 @@ body {
 /* Just add the image as background attribute and add some animation */
 
 .wrapper-one {
-  background-image: linear-gradient(to top,
+  background-image: linear-gradient(
+      to top,
       rgba(0, 0, 0, 0.788),
-      rgba(0, 0, 0, 0.788)),
+      rgba(0, 0, 0, 0.788)
+    ),
     url(../assets/church.jpg);
 }
 
 .wrapper-two {
-  background-image: linear-gradient(to top,
+  background-image: linear-gradient(
+      to top,
       rgba(0, 0, 0, 0.788),
-      rgba(0, 0, 0, 0.788)),
+      rgba(0, 0, 0, 0.788)
+    ),
     url(../assets/church2.jpg);
   animation: slideTwoAnim 20s infinite;
 }
 
 .wrapper-three {
-  background-image: linear-gradient(to top,
+  background-image: linear-gradient(
+      to top,
       rgba(0, 0, 0, 0.788),
-      rgba(0, 0, 0, 0.788)),
+      rgba(0, 0, 0, 0.788)
+    ),
     url(../assets/church3.jpg);
   animation: slideThreeAnim 20s infinite;
 }
@@ -185,7 +191,7 @@ body {
 }
 
 .about-wrapper h1::after {
-  content: '';
+  content: "";
   display: block;
   width: 54px;
   height: 4px;
@@ -236,58 +242,57 @@ p {
   padding: 20px 44px;
 }
 
-.news-column .card{
+.news-column .card {
   padding-top: 22px;
 }
 
-.news-container img{
+.news-container img {
   border-radius: 10px;
 }
 
-.about-us-div{
+.about-us-div {
   margin-left: 300px;
   margin-right: 300px;
 }
 
-.about-us-div h1{
+.about-us-div h1 {
   font-weight: 600;
   font-size: 50px;
   text-align: center;
   display: block;
 }
 
-.about-us-div li{
+.about-us-div li {
   text-align: left;
   font-family: Montserrat;
   font-size: 20px;
 }
 
-.about-us-div p{
+.about-us-div p {
   text-align: center;
   font-family: Montserrat;
   font-size: 20px;
 }
 
-.about-us-div h3{
+.about-us-div h3 {
   text-align: center;
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
 }
 
-.news1{
+.news1 {
   padding-top: 150px;
   text-align: center;
 }
 
-.news1 h4{
+.news1 h4 {
   margin-left: 0px;
 }
 
-.news1 img{
+.news1 img {
   float: right;
 }
-
 
 .column2 {
   float: left;
@@ -306,21 +311,23 @@ p {
 }
 
 .card {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 15px;
   padding: 16px;
   text-align: center;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   width: 98%;
   height: 435px;
 }
 
 .card2 {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 15px;
   padding: 16px;
   text-align: center;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .school h1 {
@@ -344,7 +351,7 @@ h4 {
 }
 
 h1:after {
-  content: '';
+  content: "";
   display: block;
   width: 80px;
   height: 4px;
@@ -353,7 +360,8 @@ h1:after {
   margin-top: 15px;
   border-radius: 3px;
 }
-.about-aseaccu, .about-title {
+.about-aseaccu,
+.about-title {
   text-align: center;
   margin: 0;
   align-self: center;
@@ -471,7 +479,7 @@ h1:after {
 }
 
 /* Media Query */
-@media screen and (min-width: 475px) and (max-width:639px) {
+@media screen and (min-width: 475px) and (max-width: 640px) {
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -507,21 +515,24 @@ h1:after {
     text-align: center;
   }
 
-  h1{
+  h1 {
     display: block;
-  } 
+  }
 
   .card {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 15px;
     padding: 16px;
     text-align: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     width: 98%;
     height: 475px;
   }
 
-  .news-container > h1, h4 {
+  .news-container > h1,
+  h4 {
     margin-left: 0;
   }
 
@@ -583,7 +594,7 @@ h1:after {
     display: block;
     margin-bottom: 20px;
     margin-left: 35px;
-  }  
+  }
 
   .column2 {
     float: left;
@@ -606,7 +617,7 @@ h1:after {
   }
 
   h1:after {
-    content: '';
+    content: "";
     display: block;
     width: 80px;
     height: 4px;
@@ -615,9 +626,108 @@ h1:after {
     margin-top: 15px;
     border-radius: 3px;
   }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    transition: 0.4s;
+  }
+
+  .bar1 {
+    top: 20px;
+  }
+  .bar2 {
+    top: 30px;
+  }
+  .bar3 {
+    top: 40px;
+  }
+
+  .hamburger {
+    margin-right: 10em;
+    margin-top: -80px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+  }
+
+  .hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .nav-links {
+    text-align: left;
+  }
+
+  .nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Poppins";
+    display: block;
+    transition: color 0.2s ease-in-out;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+  }
+
+  .nav-links a:hover {
+    color: white;
+  }
+
+  #toggle:checked + .hamburger .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    margin-top: 0px;
+  }
+
+  #toggle:checked + .hamburger .bar2 {
+    opacity: 0;
+  }
+
+  #toggle:checked + .hamburger .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    margin-top: -4px;
+  }
+
+  #toggle:checked + .hamburger + .nav-links {
+    top: 50px;
+    transform: scale(1);
+  }
 }
 
-@media screen and (min-width: 640px) and (max-width: 767px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -694,9 +804,107 @@ h1:after {
     margin-bottom: 20px;
   }
 
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    transition: 0.4s;
+  }
+
+  .bar1 {
+    top: 20px;
+  }
+  .bar2 {
+    top: 30px;
+  }
+  .bar3 {
+    top: 40px;
+  }
+
+  .hamburger {
+    margin-right: 20em;
+    margin-top: -80px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+  }
+
+  .hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .nav-links {
+    text-align: left;
+  }
+
+  .nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Poppins";
+    display: block;
+    transition: color 0.2s ease-in-out;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+  }
+
+  .nav-links a:hover {
+    color: white;
+  }
+
+  #toggle:checked + .hamburger .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    margin-top: 0px;
+  }
+
+  #toggle:checked + .hamburger .bar2 {
+    opacity: 0;
+  }
+
+  #toggle:checked + .hamburger .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+    margin-top: -4px;
+  }
+
+  #toggle:checked + .hamburger + .nav-links {
+    top: 50px;
+    transform: scale(1);
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -723,7 +931,7 @@ h1:after {
     align-items: center;
   }
 
-  #menu-toggle~.menu li {
+  #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
     padding: 0;
@@ -731,14 +939,14 @@ h1:after {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  #menu-toggle:checked~.menu li {
+  #menu-toggle:checked ~ .menu li {
     border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  .menu>li {
+  .menu > li {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -748,7 +956,7 @@ h1:after {
     background-color: #222;
   }
 
-  .menu>li:not(:last-child) {
+  .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 
@@ -770,8 +978,8 @@ h1:after {
     margin-right: 85px;
   }
 
-  .about-wrapper h4{
-   text-align: center;
+  .about-wrapper h4 {
+    text-align: center;
   }
 
   h4 {
@@ -782,7 +990,7 @@ h1:after {
   .hero-title {
     font-size: 100px;
     display: inline-block;
-    margin-left: 20px
+    margin-left: 20px;
   }
 
   .school h1 {
@@ -793,7 +1001,7 @@ h1:after {
     margin-left: 175px;
   }
 
-  h1{
+  h1 {
     text-align: center;
     margin-left: 275px;
   }
@@ -814,7 +1022,9 @@ h1:after {
     padding: 20px 120px;
   }
 
-  .wrapper-one, .wrapper-two, .wrapper-three {
+  .wrapper-one,
+  .wrapper-two,
+  .wrapper-three {
     background-color: #eee;
     background-size: cover;
     background-repeat: no-repeat;
@@ -832,14 +1042,16 @@ h1:after {
   }
 
   .card {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 15px;
     padding: 16px;
     text-align: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
   }
 
-  .card p{
+  .card p {
     width: 100%;
   }
 
@@ -848,13 +1060,14 @@ h1:after {
     width: 55%;
     padding: 20px 225px;
   }
-  .news-container h1, h4 {
+  .news-container h1,
+  h4 {
     margin-left: 100px;
     text-align: left;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -876,7 +1089,7 @@ h1:after {
     margin-left: 150px;
     margin-right: 150px;
   }
-  .about-wrapper h4{
+  .about-wrapper h4 {
     text-align: center;
     margin-left: 49px;
   }
@@ -884,7 +1097,7 @@ h1:after {
     text-align: center;
     margin-left: 339px;
   }
-  .about-wrapper p{
+  .about-wrapper p {
     width: 105%;
   }
   .school h1 {
@@ -910,7 +1123,7 @@ h1:after {
   }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1535px){
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -936,7 +1149,7 @@ h1:after {
   .about-wrapper h1 {
     margin-left: 440px;
   }
-  .about-wrapper h4{
+  .about-wrapper h4 {
     text-align: center;
     margin-left: 0px;
   }
@@ -956,20 +1169,24 @@ h1:after {
     padding: 20px 264px;
   }
   .card {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 15px;
     padding: 16px;
     text-align: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     width: 233%;
     height: 435px;
   }
   .card2 {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 15px;
     padding: 16px;
     text-align: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     width: 233%;
     height: 435px;
   }
@@ -977,13 +1194,15 @@ h1:after {
     float: left;
     padding: 20px 140px;
   }
-  .news-column .card{
-      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-      border-radius: 15px;
-      padding: 16px;
-      text-align: center;
-      background-color: #FAFAFA;
-      width: 145%;
-      height: 435px;
+  .news-column .card {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 15px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fafafa;
+    width: 145%;
+    height: 435px;
   }
 }
