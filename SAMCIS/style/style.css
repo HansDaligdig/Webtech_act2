@@ -885,3 +885,53 @@ img {
     margin: 20px;
   }
 }
+
+@media (orientation: landscape) {
+  .hero-title {
+    font-size: 55px;
+  }
+  .hero-button {
+    padding: 17px;
+  }
+  .about-text {
+    padding-right: 25px;
+  }
+  .aboutp-text {
+    font-size: 23px;
+  }
+  .about-container {
+    padding-bottom: 5%;
+    padding-right: 15px;
+  }
+  .image {
+    margin: 0;
+  }
+  .about-title {
+    margin: 0;
+    font-size: 40px;
+  }
+  .univ-title,
+  .samcis-title {
+    font-size: 40px;
+  }
+  .univ-title-odd,
+  .univ-title-even,
+  .samcis-title-even,
+  .samcis-title-odd {
+    font-size: 40px;
+    margin: 0;
+  }
+  .odd-text,
+  .even-text {
+    font-size: 23px;
+  }
+  .univ-org-even,
+  .univ-org-odd {
+    padding: 20px;
+  }
+  .image-div-even,
+  .image-div-odd {
+    padding: 0;
+    margin: 20px;
+  }
+}
